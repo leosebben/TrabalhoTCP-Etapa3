@@ -1,0 +1,321 @@
+[
+    {
+        "id": 1,
+        "categoria": "Historia",
+        "resposta" : "1879",
+        "perguntaCorreta": "vEm que ano nasceu Albert Einstein?",
+
+        "perguntas": [
+            "Quando nasceu Santos Dummont?",
+            "Quantos dias durou a WWII?",
+            "Em que ano Thomas Edson inventou a lâmpada Incandescente?",
+            "Em que ano nasceu Albert Einstein?"
+        ]
+
+
+    },
+
+    {
+        "id": 2,
+        "categoria": "Historia",
+        "resposta" : "Gregos",
+        "perguntaCorreta": "O demótico representava sua forma de escrita:",
+
+        "perguntas": [
+            "O cuniforme representava sua forma de escrita:",
+            "O alfabeto representava sua forma de escrita:",
+            "O kipo representava sua forma de escrita:",
+            "O demótico representava sua forma de escrita:"
+        ]
+
+
+    },
+
+    {
+        "id": 3,
+        "categoria": "Historia",
+        "resposta" : "Descobrimento do Brasil",
+        "perguntaCorreta": "Qual evento histórico relevante ocorreu no ano 1500?",
+
+        "perguntas": [
+            "O que fez Cristóvão Colombo?",
+            "Qual a primeira medida de Marechal Deodoro da Fonseca?",
+            "Em que evento histórico houve o grito de 'Independencia ou morte'?",
+            "Qual evento histórico relevante ocorreu no ano 1500?"
+        ]
+
+
+    },
+
+    {
+        "id": 4,
+        "categoria": "Historia",
+        "resposta" : "Edmund Cartwright",
+        "perguntaCorreta": "Foi o Inventor do Tear mecânico:",
+
+        "perguntas": [
+            "Foi um quem descobriu a penicilina:",
+            "Foi o inverntor da máquina a vapor:",
+            "Foi um famoso escritor:",
+            "Foi o Inventor do Tear mecânico:"
+        ]
+
+
+    },
+
+    {
+        "id": 5,
+        "categoria": "Historia",
+        "resposta" : "Margateth Tatcher",
+        "perguntaCorreta": "Quem é conhecida como a Dama de Ferro?",
+
+        "perguntas": [
+            "Quem é conhecida como a Dama de Ouro?",
+            "Quem é conhecida como a Dama de Copas?",
+            "Quem é conhecida por sua atuação em 'Uma Bela Mulher'?",
+            "Quem é conhecida como a Dama de Ferro?"
+        ]
+
+
+    },
+
+    {
+        "id": 6,
+        "categoria": "Matematica",
+        "resposta" : "68",
+        "perguntaCorreta": "Qual o valor da equação:(8^2)+4?",
+
+        "perguntas": [
+            "Qual o valor da equação: (5^2) + 15?",
+            "Qual o valor da equação: (200/2) - 35?",
+            "Qual o valor da equação: (3^3) * 2?",
+            "Qual o valor da equação:(8^2)+4?"
+        ]
+
+
+    },
+
+    {
+        "id": 7,
+        "categoria": "Matematica",
+        "resposta" : "Pi",
+        "perguntaCorreta": "3,141592 são o primiros número do?",
+
+        "perguntas": [
+            "Qual a fórmula de baskara?",
+            "Qual o valor da equação: (4*9) +30?",
+            "Qual o simbolo de um integral?",
+            "3,141592 são o primiros número do?"
+        ]
+
+
+    },
+
+    {
+        "id": 8,
+        "categoria": "Matematica",
+        "resposta" : "a = (b*h)/2",
+        "perguntaCorreta": "Qual a fórmula da área do triângulo?",
+
+        "perguntas": [
+            "Qual a fórmula de baskara?",
+            "Qual a fórmula do Teorema de Pitágora?",
+            "5 é correspondente a qual símbolo em algarismos romanos?",
+            "Qual a fórmula da área do triângulo?"
+        ]
+
+
+    },
+
+    {
+        "id": 9,
+        "categoria": "Matematica",
+        "resposta" : "42",
+        "perguntaCorreta": "Quanto é 6 x 6 + 6?",
+
+        "perguntas": [
+            "Quanto é 6 x 6 + 1?",
+            "Quantos prótons tem o carbono?",
+            "Qual o valor da equação: (200/2) - 35?",
+            "Quanto é 6 x 6 + 6?"
+        ]
+
+
+    },
+
+    {
+        "id": 10,
+        "categoria": "Matematica",
+        "resposta" : "120",
+        "perguntaCorreta": "5! é?",
+
+        "perguntas": [
+            "2! é?",
+            "7! é?",
+            "4! é?",
+            "5! é?"
+        ]
+
+
+    },
+
+    {
+        "id": 11,
+        "categoria": "Esporte",
+        "resposta" : "Simone Biles",
+        "perguntaCorreta": "É uma medalista de ginástica?",
+
+        "perguntas": [
+            "É uma medalista de corrida?",
+            "É uma medalista de hipismo?",
+            "É uma medalista de ciclismo?",
+            "É uma medalista de ginástica?"
+        ]
+
+
+    },
+
+    {
+        "id": 12,
+        "categoria": "Esporte",
+        "resposta" : "2016",
+        "perguntaCorreta": "Quando ocorreram as olimpíadas do Rio de Janeiro?",
+
+        "perguntas": [
+            "Quando ocorreram as olimpíadas de Atenas?",
+            "Quando ocorreram as olimpíadas de Londres?",
+            "Quando ocorreram as olimpíadas de Pequim?",
+            "Quando ocorreram as olimpíadas do Rio de Janeiro?"
+        ]
+
+
+    },
+
+    {
+        "id": 13,
+        "categoria": "Esporte",
+        "resposta" : "15",
+        "perguntaCorreta": "Qual o número de jogadore de um time em um jogo de rugby?",
+
+        "perguntas": [
+            "Qual o número de jogadores convocados para um capa do mundo de futebol?",
+            "Qual o número de jogadores em quadra em um jogo de vôlei?",
+            "Quantas pessoas jogam uma partida de basquete?",
+            "Qual o número de jogadore de um time em um jogo de rugby?"
+        ]
+
+
+    },
+
+    {
+        "id": 14,
+        "categoria": "Esporte",
+        "resposta" : "Barcelona",
+        "perguntaCorreta": "Qual o número de jogadore de um time em um jogo de rugby?",
+
+        "perguntas": [
+            "Onde ocorreramo os primeiros jogos olimpicos?",
+            "É um lugar famoso por grandes ondas?",
+            "Onde ocorreramo os jogos olimpicos de 2016?",
+            "Em qual cidade a seleção masculina de vôlei ganhou a primeira medalha de ouro?"
+        ]
+
+
+    },
+
+    {
+        "id": 15,
+        "categoria": "Esporte",
+        "resposta" : "São Paulo",
+        "perguntaCorreta": "Qual cidade onde fica o autódromo de interlagos?",
+
+        "perguntas": [
+            "Em qual cidade ficam praias famosas pelas ondas?",
+            "Qual país foi campeão da última copa do mundo de futebo?",
+            "Qual país vai ser sede das próximas olimpíadas?",
+            "Qual cidade onde fica o autódromo de interlagos?"
+        ]
+
+
+    },
+
+    {
+        "id": 16,
+        "categoria": "Entretenimento",
+        "resposta" : "Wanda Maximoff",
+        "perguntaCorreta": "Quem é a Esposa de Visão em Wandavision?",
+
+        "perguntas": [
+            "Quem é a filha de Mortícia em Família Addams?",
+            "Quem é a protagonista da série Wandinha, da Netflix?",
+            "Quem matou Zeus em God of War?",
+            "Quem é a Esposa de Visão em Wandavision?"
+        ]
+
+
+    },
+
+    {
+        "id": 17,
+        "categoria": "Entretenimento",
+        "resposta" : "Shurato",
+        "perguntaCorreta": "Quem é o protagonista de um Anime televisionado pela Rede Bandeirantes nos anos 90?",
+
+        "perguntas": [
+            "Que pokemon é conhecido pela frase 'Shura'?",
+            "Qual o nome do planeta roxo de Dragon Ball?",
+            "Qual personagem manejava uma Shuriken em Caveleiros do Zodiaco?",
+            "Quem é o protagonista de um Anime televisionado pela Rede Bandeirantes nos anos 90?"
+        ]
+
+
+    },
+
+    {
+        "id": 18,
+        "categoria": "Entretenimento",
+        "resposta" : "Bowser",
+        "perguntaCorreta": "Quem é o vilão de Super Mario Bros.?",
+
+        "perguntas": [
+            "Quem é o vilão de Mega Man?",
+            "Quem é o Vilão de Sonic?",
+            "Quem é o vilão de Bomberman?",
+            "Quem é o vilão de Super Mario Bros.?"
+        ]
+
+
+    },
+
+    {
+        "id": 19,
+        "categoria": "Entretenimento",
+        "resposta" : "Bowser",
+        "perguntaCorreta": "Qual o primeiro nome de Sílvio Santos?",
+
+        "perguntas": [
+            "Qual título concedido a Luke em Star Wars?",
+            "Quem pintou a Santa Ceia?",
+            "Quem inventou o biscoito de polvilho?",
+            "Qual o primeiro nome de Sílvio Santos?"
+        ]
+
+
+    },
+
+    {
+        "id": 20,
+        "categoria": "Entretenimento",
+        "resposta" : "Lady Gaga",
+        "perguntaCorreta": "Quem é um cantora famosa de pop?",
+
+        "perguntas": [
+            "Quem foi a rainha mais duradoura da Inglaterra?",
+            "Quem é a atriz que interpretou a boneca Barbie no filme live action?",
+            "Qual o nome da escritora de Harry Potter?",
+            "Quem é um cantora famosa de pop?"
+        ]
+
+
+    }
+]

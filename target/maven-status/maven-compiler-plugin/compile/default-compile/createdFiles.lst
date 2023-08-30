@@ -1,0 +1,15 @@
+br\ufrgs\tcp\respondidos\Jogo.class
+br\ufrgs\tcp\respondidos\tela\MostraRespostaController.class
+br\ufrgs\tcp\respondidos\model\Partida.class
+br\ufrgs\tcp\respondidos\model\Jogador.class
+br\ufrgs\tcp\respondidos\tela\MenuPrincipalController.class
+br\ufrgs\tcp\respondidos\model\Leaderboard.class
+br\ufrgs\tcp\respondidos\model\Timer.class
+br\ufrgs\tcp\respondidos\model\Categoria.class
+br\ufrgs\tcp\respondidos\tela\NovaPartidaController.class
+br\ufrgs\tcp\respondidos\tela\Janela.class
+br\ufrgs\tcp\respondidos\tela\SelecionarCategoriaController.class
+br\ufrgs\tcp\respondidos\model\Score.class
+br\ufrgs\tcp\respondidos\model\BancoDeRespostas.class
+br\ufrgs\tcp\respondidos\model\Resposta.class
+br\ufrgs\tcp\respondidos\tela\TelaController.class

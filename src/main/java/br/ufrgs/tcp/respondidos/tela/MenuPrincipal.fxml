@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
+   fx:controller="br.ufrgs.tcp.respondidos.tela.MenuPrincipalController">
+   <children>
+      <Label text="Menu Principal">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="25.0" />
+         </VBox.margin></Label>
+      <Button minWidth="200.0" mnemonicParsing="false" onAction="#onNewGameButtonClicked" text="Nova Partida" />
+      <Button minWidth="200.0" mnemonicParsing="false" onAction="#onLeaderboardButtonClicked" text="Leaderboard" />
+      <Button minWidth="200.0" mnemonicParsing="false" onAction="#onQuitButtonClicked" text="Sair" />
+   </children>
+</VBox>
