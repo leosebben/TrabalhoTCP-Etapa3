@@ -1,6 +1,5 @@
-# Respondidos
+# Trabalho TCP - Etapa 3 - Avaliação e Manutenção do Trabalho Respondidos 
 Técnicas de Construção de Programas, 2023/1
-Grupo 7. Laura, Léo M., Lucas M., Maurício M. 
 
 ## Links Úteis
 
