@@ -28,7 +28,7 @@ public class Janela {
     /* Tenta carregar uma tela, salvar nela qual é o Jogo, e mostrar ela para o usuário */
     public void mudaTela(String nomeTela){
         try {
-            String nomeArquivo = "tela/" +  nomeTela + ".fxml";
+            String nomeArquivo = "/fxml/" +  nomeTela + ".fxml";
 
             FXMLLoader loader = new FXMLLoader(Jogo.class.getResource(nomeArquivo));
 

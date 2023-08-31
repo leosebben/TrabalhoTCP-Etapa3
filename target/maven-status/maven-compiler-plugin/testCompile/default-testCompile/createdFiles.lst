@@ -1,4 +1,4 @@
-br\ufrgs\tcp\respondidos\BancoTest.class
-br\ufrgs\tcp\respondidos\JogoTest.class
-br\ufrgs\tcp\respondidos\TimerTest.class
-br\ufrgs\tcp\respondidos\RespostaTest.class
+br/ufrgs/tcp/respondidos/TimerTest.class
+br/ufrgs/tcp/respondidos/BancoTest.class
+br/ufrgs/tcp/respondidos/RespostaTest.class
+br/ufrgs/tcp/respondidos/JogoTest.class

@@ -1,15 +1,17 @@
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Leaderboard.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\MostraRespostaController.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Jogador.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Score.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\Janela.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\NovaPartidaController.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\Jogo.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Partida.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Categoria.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\TelaController.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\MenuPrincipalController.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Resposta.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\tela\SelecionarCategoriaController.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\BancoDeRespostas.java
-C:\Users\I567680\Projects\TCP-Respondidos\src\main\java\br\ufrgs\tcp\respondidos\model\Timer.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/Janela.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/LeaderboardController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/BancoDeRespostas.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Leaderboard.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Resposta.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/Jogo.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/TelaController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Timer.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Partida.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/NovaPartidaController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/FinalPartidaController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/MenuPrincipalController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Categoria.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Jogador.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/model/Score.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/MostraRespostaController.java
+/Users/leonardosebben/Developer/java-projects/tp-etapa2-grupo7/Codigo Fonte/src/main/java/br/ufrgs/tcp/respondidos/tela/SelecionarCategoriaController.java

@@ -15,7 +15,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 
 public class BancoDeRespostas {
-    private static final String NOME_D0_ARQUIVO = "data/banco.json";
+    private static final String NOME_D0_ARQUIVO = "/data/banco.json";
     private Map<Categoria, List<Resposta>> respostas;
 
     public Resposta sortearResposta(Categoria c){
