@@ -44,6 +44,7 @@ public class MostraRespostaController extends TelaController {
 
     Resposta resposta;
     boolean firstDica = true;
+    int numErrada;
 
     @Override
     public void inicia() {
@@ -52,11 +53,13 @@ public class MostraRespostaController extends TelaController {
 
         this.idRespostaLabel.setText( "Resposta #"+Integer.toString(resposta.getId()));
         this.respostaLabel.setText(resposta.getResposta());
-
+        
         this.alt1Button.setText(resposta.getPerguntas().get(0));
         this.alt2Button.setText(resposta.getPerguntas().get(1));
         this.alt3Button.setText(resposta.getPerguntas().get(2));
         this.alt4Button.setText(resposta.getPerguntas().get(3));
+        
+          
         this.dica.setText("dica");
         // this.alt5Button.setText(resposta.getPerguntas().get(4));
 
@@ -112,20 +115,18 @@ public class MostraRespostaController extends TelaController {
 
     private void selecionaAlternativaIncorreta(){
         Random gerador = new Random();  
-        int perguntaErrada= (gerador.nextInt() % 3);      
+        int perguntaErrada = gerador.nextInt(4);     
         while(resposta.getPerguntas().get(perguntaErrada).equals(resposta.getPerguntaCorreta())){
-            perguntaErrada = (gerador.nextInt() % 3);  
-            System.out.println(perguntaErrada);
+            if(perguntaErrada >= 3) perguntaErrada = 0;
+            else perguntaErrada++;
+            System.out.println("\n" + resposta.getPerguntas().get(perguntaErrada));
         }  
         // modifica o campo da alternativa errada equivalente a variavel perguntaErrada  
-       switch(perguntaErrada){
-            case 0 : alt1Button.setText("Errado!");
-            case 1 : alt2Button.setText("Errado!");
-            case 2 : alt3Button.setText("Errado!");
-            case 3 : alt4Button.setText("Errado!");
-        }
+        if(perguntaErrada == 0) alt1Button.setText("ERRADA!");
+        else if(perguntaErrada == 1) alt2Button.setText("ERRADA!");
+        else if(perguntaErrada == 2) alt3Button.setText("ERRADA!");
+        else if(perguntaErrada == 3) alt4Button.setText("ERRADA!");
         firstDica = false;
-
     }
 
     private void onEscolheAlternativa(String alternativa){
