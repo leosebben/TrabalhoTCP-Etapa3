@@ -50,17 +50,15 @@ public class MostraRespostaController extends TelaController {
     public void inicia() {
         Jogador jogador = getJogo().getPartidaAtual().getJogadorAtual();
         this.resposta = getJogo().getPartidaAtual().getRespostaAtual();
-
+        this.dica.setStyle("-fx-background-color: green");
         this.idRespostaLabel.setText( "Resposta #"+Integer.toString(resposta.getId()));
         this.respostaLabel.setText(resposta.getResposta());
-        
+
         this.alt1Button.setText(resposta.getPerguntas().get(0));
         this.alt2Button.setText(resposta.getPerguntas().get(1));
         this.alt3Button.setText(resposta.getPerguntas().get(2));
         this.alt4Button.setText(resposta.getPerguntas().get(3));
-        
-          
-        this.dica.setText("dica");
+        this.dica.setText("Dica");
         // this.alt5Button.setText(resposta.getPerguntas().get(4));
 
         this.pontuacaoLabel.setText( "Pontos: " + jogador.getPontuacaoTotal() );
@@ -108,7 +106,6 @@ public class MostraRespostaController extends TelaController {
             onEscolheAlternativa(alt4Button.getText());
     }
 
-
     //função adicional para testar alternativas incorretas
     @FXML
     public void dicaOnClick(){
@@ -119,19 +116,33 @@ public class MostraRespostaController extends TelaController {
 
     private void selecionaAlternativaIncorreta(){
         Random gerador = new Random();  
-        int perguntaErrada = gerador.nextInt(4);     
+        int perguntaErrada= (gerador.nextInt(1, 4));  
+            
         while(resposta.getPerguntas().get(perguntaErrada).equals(resposta.getPerguntaCorreta())){
             if(perguntaErrada >= 3) perguntaErrada = 0;
             else perguntaErrada++;
-            System.out.println("\n" + resposta.getPerguntas().get(perguntaErrada));
+            System.out.println("\n" + resposta.getPerguntas().get(perguntaErrada)); 
         }  
+        System.out.println(perguntaErrada);
         // modifica o campo da alternativa errada equivalente a variavel perguntaErrada  
-        if(perguntaErrada == 0) alt1Button.setText("ERRADA!");
-        else if(perguntaErrada == 1) alt2Button.setText("ERRADA!");
-        else if(perguntaErrada == 2) alt3Button.setText("ERRADA!");
-        else if(perguntaErrada == 3) alt4Button.setText("ERRADA!");
+       switch(perguntaErrada){
+            case 0 : 
+                this.alt1Button.setStyle("-fx-background-color: red");
+                break;
+            case 1 :
+                this.alt2Button.setStyle("-fx-background-color: red");
+                break;
+            case 2 : 
+                this.alt3Button.setStyle("-fx-background-color: red");
+                break;
+            case 3 : 
+                this.alt4Button.setStyle("-fx-background-color: red");
+                break;
+        }
         numErrada = perguntaErrada;
         firstDica = false;
+        this.dica.setStyle("-fx-background-color: red");
+
     }
 
     private void onEscolheAlternativa(String alternativa){
