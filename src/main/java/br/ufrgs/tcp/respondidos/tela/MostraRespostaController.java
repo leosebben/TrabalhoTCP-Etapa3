@@ -1,5 +1,6 @@
 package br.ufrgs.tcp.respondidos.tela;
 
+import java.util.Random;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -38,8 +39,11 @@ public class MostraRespostaController extends TelaController {
     Button alt3Button;
     @FXML
     Button alt4Button;
+    @FXML
+    Button dica;
 
     Resposta resposta;
+    boolean firstDica = true;
 
     @Override
     public void inicia() {
@@ -53,6 +57,7 @@ public class MostraRespostaController extends TelaController {
         this.alt2Button.setText(resposta.getPerguntas().get(1));
         this.alt3Button.setText(resposta.getPerguntas().get(2));
         this.alt4Button.setText(resposta.getPerguntas().get(3));
+        this.dica.setText("dica");
         // this.alt5Button.setText(resposta.getPerguntas().get(4));
 
         this.pontuacaoLabel.setText( "Pontos: " + jogador.getPontuacaoTotal() );
@@ -94,6 +99,33 @@ public class MostraRespostaController extends TelaController {
     @FXML
     public void alt4OnClick(){
         onEscolheAlternativa(alt4Button.getText());
+    }
+
+
+    //função adicional para testar alternativas incorretas
+    @FXML
+    public void dicaOnClick(){
+        if(firstDica){
+            selecionaAlternativaIncorreta();
+        }
+    }
+
+    private void selecionaAlternativaIncorreta(){
+        Random gerador = new Random();  
+        int perguntaErrada= (gerador.nextInt() % 3);      
+        while(resposta.getPerguntas().get(perguntaErrada).equals(resposta.getPerguntaCorreta())){
+            perguntaErrada = (gerador.nextInt() % 3);  
+            System.out.println(perguntaErrada);
+        }  
+        // modifica o campo da alternativa errada equivalente a variavel perguntaErrada  
+       switch(perguntaErrada){
+            case 0 : alt1Button.setText("Errado!");
+            case 1 : alt2Button.setText("Errado!");
+            case 2 : alt3Button.setText("Errado!");
+            case 3 : alt4Button.setText("Errado!");
+        }
+        firstDica = false;
+
     }
 
     private void onEscolheAlternativa(String alternativa){

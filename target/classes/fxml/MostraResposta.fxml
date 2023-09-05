@@ -33,6 +33,7 @@
             <Button fx:id="alt2Button" minWidth="300.0" mnemonicParsing="false" onAction="#alt2OnClick" text="Button" />
             <Button fx:id="alt3Button" minWidth="300.0" mnemonicParsing="false" onAction="#alt3OnClick" text="Button" />
             <Button fx:id="alt4Button" minWidth="300.0" mnemonicParsing="false" onAction="#alt4OnClick" text="Button" />
+            <Button fx:id="dica" minWidth="300.0" mnemonicParsing="false" onAction="#dicaOnClick" text="Button" />
          </children>
       </VBox>
       <Label fx:id="tempoLabel" text="tempo">

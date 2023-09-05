@@ -28,6 +28,32 @@ public class Jogo extends Application{
         this.janela.mudaTela("SelecionarCategoria");
     }
 
+    public void sair() {
+        try {
+            janela.getStage().close();
+            this.stop();
+        } catch (Exception ex) {
+            System.out.println("Impossível sair! " + ex.getMessage());
+            ex.printStackTrace();
+        }
+    }
+ 
+
+    public void escolherPergunta(Categoria categoria) {
+        partidaAtual.escolherPergunta(categoria);
+        janela.mudaTela("MostraResposta");
+    }
+
+    public void proximoTurno() {
+        partidaAtual.proximoTurno();
+        if( partidaAtual.acabou() ){
+            janela.mudaTela("FinalPartida");
+            salvaScores();
+        } else {
+            janela.mudaTela("SelecionarCategoria");
+        }
+    }
+
     public boolean temPartida(){
         return partidaAtual != null;
     }
@@ -44,17 +70,6 @@ public class Jogo extends Application{
         launch(args);
     }
 
-    public void sair() {
-        try {
-            janela.getStage().close();
-            this.stop();
-        } catch (Exception ex) {
-            System.out.println("Impossível sair! " + ex.getMessage());
-            ex.printStackTrace();
-        }
-    }
-
-
     public void showHome() {
         janela.mudaTela("MenuPrincipal");
     }
@@ -66,22 +81,7 @@ public class Jogo extends Application{
 
     public void criarNovaPartida() {
         janela.mudaTela("NovaPartida");
-    }
-
-    public void escolherPergunta(Categoria categoria) {
-        partidaAtual.escolherPergunta(categoria);
-        janela.mudaTela("MostraResposta");
-    }
-
-    public void proximoTurno() {
-        partidaAtual.proximoTurno();
-        if( partidaAtual.acabou() ){
-            janela.mudaTela("FinalPartida");
-            salvaScores();
-        } else {
-            janela.mudaTela("SelecionarCategoria");
-        }
-    }
+   }
 
     public void salvaScores(){
         for( Jogador jogador : partidaAtual.getJogadores() ){
