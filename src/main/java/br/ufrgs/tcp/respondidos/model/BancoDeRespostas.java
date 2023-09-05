@@ -89,12 +89,16 @@ public class BancoDeRespostas {
         return resposta;
     }
 
+    // Pegamos a última e removemos para não ser sorteada de novo.
     public Resposta novaDaCategoria(Categoria categoria) {
-        // Pegamos a última e removemos para não ser sorteada de novo.
-        int tamCategoria = respostas.get(categoria).size();
-        Resposta ret = respostas.get(categoria).get( tamCategoria - 1 );
-        respostas.get(categoria).remove(tamCategoria - 1);
+        List<Resposta> currentRespostas = this.respostas.get(categoria);
 
-        return ret;
+        int tamCategoria = currentRespostas.size();
+
+        Resposta novaResposta = currentRespostas.get(tamCategoria - 1);
+
+        currentRespostas.remove(tamCategoria - 1);
+
+        return novaResposta;
     }
 }
