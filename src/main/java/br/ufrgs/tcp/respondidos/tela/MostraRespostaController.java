@@ -89,19 +89,23 @@ public class MostraRespostaController extends TelaController {
 
     @FXML
     public void alt1OnClick(){
-        onEscolheAlternativa(alt1Button.getText());
+        if(!(!firstDica && numErrada == 0)) 
+            onEscolheAlternativa(alt1Button.getText());
     }
     @FXML
     public void alt2OnClick(){
-        onEscolheAlternativa(alt2Button.getText());
+        if(!(!firstDica && numErrada == 1))
+            onEscolheAlternativa(alt2Button.getText());
     }
     @FXML
     public void alt3OnClick(){
-        onEscolheAlternativa(alt3Button.getText());
+        if(!(!firstDica && numErrada == 2))
+            onEscolheAlternativa(alt3Button.getText());
     }
     @FXML
     public void alt4OnClick(){
-        onEscolheAlternativa(alt4Button.getText());
+        if(!(!firstDica && numErrada == 3))
+            onEscolheAlternativa(alt4Button.getText());
     }
 
 
@@ -126,6 +130,7 @@ public class MostraRespostaController extends TelaController {
         else if(perguntaErrada == 1) alt2Button.setText("ERRADA!");
         else if(perguntaErrada == 2) alt3Button.setText("ERRADA!");
         else if(perguntaErrada == 3) alt4Button.setText("ERRADA!");
+        numErrada = perguntaErrada;
         firstDica = false;
     }
 
